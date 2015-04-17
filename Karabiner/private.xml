@@ -1,0 +1,31 @@
+<?xml version="1.0"?>
+<root>
+      <item>
+        <name>Home Row Arrow Keys: Cmd + Shift + IJKL to ^&lt;&gt;v</name>
+        <identifier>private.coolaj86_cmd_shift_homerowarrows</identifier>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::I,
+            ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_UP
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::J,
+            ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_LEFT
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::K,
+            ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_DOWN
+        </autogen>
+        <autogen>
+            __KeyToKey__ 
+            KeyCode::L,
+            ModifierFlag::SHIFT_L | ModifierFlag::COMMAND_L,
+            KeyCode::CURSOR_RIGHT
+        </autogen>
+    </item>
+</root>
